@@ -12,7 +12,108 @@
 
 @import url("../accelerate-theme/style.css");
 
-body {
-	background: red;
+/* home page style*/
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.homepage-featured-work {
+  font-size: 12px;
+  font-family: "Montserrat";
+  color: rgb(58, 57, 57);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.556;
+  text-align: center;ß
+  position: absolute;
+  z-index: 1;
+  float: left;
+}
+
+.featured-work h4{
+  font-size: 24px;
+  font-family: "Montserrat";
+  color: rgb(58, 57, 57);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.556;
+  text-align: center;ß
+}
+
+.homepage-featured-work li:last-of-type {
+      margin-right: 0;
+  }
+
+.blog-post {
+	width: 50%;
+}
+
+.blog-post h4 {
+	font-size: 16px;
+	font-family: Montserrat;
+	color: #a6a6a6
+	text-transform: uppercase;
+}
+
+.blog-post h2 {
+	font-size: 24px;
+	font-family: Montserrat;
+	font-weight; bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+.blog-post .read-more-link {
+  font-size: 16px;
+  font-family: "Montserrat";
+  color: rgb(69, 172, 157);
+  font-weight: bold;
+  text-transform: uppercase;ß
+}
+
+
+
+.MailChimp_Campaign {
+  font-size: 24px;
+  font-family: "Open Sans";
+  color: rgb(59, 59, 59);
+  line-height: 1.697;
+  text-align: right;
+  position: absolute;
+  left: 176.477px;
+  top: 928.335px;
+  z-index: 30;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
