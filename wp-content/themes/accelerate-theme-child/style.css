@@ -12,13 +12,32 @@
 
 @import url("../accelerate-theme/style.css");
 
-/* home page style*/
-.home-page {
-    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
-}
+/*navigation */
 
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
+}
+
+#masthead nav ul {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: Open Sans;
+  }
+
+#masthead nav li {
+  float: left;
+  padding-right: 15px;
+}
+
+.nav-menu .current-menu-item a {
+  font-weight: bold;
+}
+
+
+/* home page style*/
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
 
 .button {
@@ -26,76 +45,257 @@
 }
 
 .homepage-featured-work {
-  font-size: 12px;
-  font-family: "Montserrat";
-  color: rgb(58, 57, 57);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.556;
-  text-align: center;ß
-  position: absolute;
-  z-index: 1;
-  float: left;
+  margin: 0 0 160px 0;
 }
 
-.featured-work h4{
-  font-size: 24px;
-  font-family: "Montserrat";
-  color: rgb(58, 57, 57);
-  font-weight: bold;
-  text-transform: uppercase;
+.site-content h1 {
   text-align: center;
-  line-height: 1.556;
-  text-align: center;ß
+  font-weight: bold;
+  margin: 20px 0 30px 0;
+  font-size: 52px;
+  font-family: Montserrat;
+}
+
+.site-content h4 {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0 50px 0;
+  font-size: 20px;
+  font-family: Montserrat;
+}
+
+.homepage-featured-work h3 {
+  text-align: center;
+  font-weight: normal;
+  margin: 20px 0 50px 0;
+  font-size: 18px;
+  font-family: Montserrat;
+}
+
+.homepage-featured-work {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.homepage-featured-work li {
+  width: 32%;
+  margin-right: 2%;
+  float: left;
+  list-style-type: none;
 }
 
 .homepage-featured-work li:last-of-type {
-      margin-right: 0;
-  }
+  margin-right: 0;
+}
 
+.homepage-case-study-sidebar h2{
+  text-align: center;
+  font-size: 10px;
+}
+
+/* ABOUT PAGE */
+.about-hero {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 300px;
+    padding: 50px;
+}
+
+.about-hero-text  {
+  text-align: center;
+  color: white;
+  padding: 80px 220px 100px;
+  line-height: 40px;
+  font-size: 30px;
+}
+
+.about-hero-text span {
+    color: #45ac9d;
+}
+
+
+/*service */
+
+.service-overview h5  {
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  text-align: center;
+}
+
+ .service-overview p {
+  padding:0 210px 0 210px;
+  text-align: center;
+}
+
+/*service info*/
+
+.service-item {
+  overflow: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.service-item:nth-child(odd) .about-icon {
+  float: left;
+  margin-right: 5%;
+
+}
+.service-item:nth-child(even) .about-icon {
+  float: right;
+  margin-left: 5%;
+}
+
+
+.service-text {
+  float:left;
+  width:70%;
+
+}
+
+
+
+
+
+
+/* case studies style*/
+article.case-study {
+  margin: 0 40px;
+  width: 960px;
+}
+
+aside.case-study-sidebar {
+  float: left;
+  width: 314px;
+  margin: 40px 40px 0 0;
+}
+
+div.case-study-images {
+  float: left;
+  width: 606px;
+  margin: 40px 0 0 0;
+}
+
+div.case-study-images img {
+  display: block;
+  margin-bottom: 50px;
+  border: 1px solid #dddddd;
+}
+
+aside.case-study-sidebar h2 {
+  font-weight: normal;
+}
+
+aside.case-study-sidebar h5 {
+  font-size: 12px;
+  font-weight: normal;
+  color: #A9A9A9;
+  margin: 0 0 15px 0;
+}
+
+aside.case-study-sidebar h6 {
+  font-size: 12px;
+  font-weight: normal;
+  color: #696969;
+}
+
+aside.case-study-sidebar p {
+  font-size: 14px;
+  font-weight: normal;
+  color: #696969;
+}
+
+div.live-site {
+  font-size: 14px;
+  font-weight: bold;
+  color: #696969;
+}
+
+/* blog post style*/
 .blog-post {
-	width: 50%;
+  width: 50%;
 }
 
 .blog-post h4 {
-	font-size: 16px;
-	font-family: Montserrat;
-	color: #a6a6a6
-	text-transform: uppercase;
+  font-size: 16px;
+  font-family: Montserrat;
+  color: #a6a6a6
+  text-transform: uppercase;
 }
 
 .blog-post h2 {
-	font-size: 24px;
-	font-family: Montserrat;
-	font-weight; bold;
-	color: #45ac9d;
-	text-transform: uppercase;
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight; bold;
+  color: #45ac9d;
+  text-transform: uppercase;
 }
 
 .blog-post .read-more-link {
   font-size: 16px;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   color: rgb(69, 172, 157);
   font-weight: bold;
-  text-transform: uppercase;ß
+  text-transform: uppercase;
+}
+
+/* Contact Me style*/
+/* input#nf-field-4.ninja-forms-field.nf-element { */
+
+#content {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.nf-field .nf-field-label label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+#content p {
+  family: 'Montserrat', sans-serif;
+  font-size: 16.5px;
+  font-weight: normal;
+}
+
+div.textbox-container {
+  float: left;
+  width: 45%;
+  overflow: hidden;
+}
+
+div.email-container {
+  float: right;
+  width: 45%;
+  overflow: hidden;
+}
+
+input.ninja-forms-field.nf-element[type="button"] {
+  color: white;
+  background: #45ac9d;
+  width: 206px;
+  height: 55px;
+  family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  float: right;
 }
 
 
 
-.MailChimp_Campaign {
-  font-size: 24px;
-  font-family: "Open Sans";
-  color: rgb(59, 59, 59);
-  line-height: 1.697;
-  text-align: right;
-  position: absolute;
-  left: 176.477px;
-  top: 928.335px;
-  z-index: 30;
+
+
+/* grid style
+.grid {
+ display: grid;
+ grid-template-columns: repeat(6, 150px);
+ grid-template-rows: repeat(3, 150px);
+ grid-gap: 30px;
 }
-
-
-
+*/
 
 
 

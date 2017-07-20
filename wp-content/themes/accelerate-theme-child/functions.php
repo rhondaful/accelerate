@@ -43,3 +43,28 @@ function create_custom_post_types() {
 
 // Hook this custom post type function into the theme
 add_action( 'init', 'create_custom_post_types' );
+
+
+// Services function
+ function create_custom_service_types() {
+// create a case study custom post type
+    register_post_type( 'services',
+        array(
+            'labels' => array(
+                'name' => __( 'Services' ),
+                'singular_name' => __( 'Service' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array( 'slug' => 'service' ),
+        )
+    );
+}
+
+// Hook this custom post type function into the theme
+add_action( 'init', 'create_custom_post_types' );
+
+
+
+
+

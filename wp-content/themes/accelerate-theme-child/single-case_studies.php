@@ -23,8 +23,8 @@ get_header(); ?>
 			?>
 			<article class="case-study">
 				<aside class="case-study-sidebar">
-					<h3><?php the_title(); ?></h3>
-					<h5>Services<?php echo $services; ?></h5>
+					<h2><?php the_title(); ?></h2>
+					<h5>Services: <?php echo $services; ?></h5>
 					<h6>Client: <?php echo $client; ?></h6>
 
 					<?php the_content(); ?>
