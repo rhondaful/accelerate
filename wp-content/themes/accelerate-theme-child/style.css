@@ -33,7 +33,7 @@
 .nav-menu .current-menu-item a {
   font-weight: bold;
 }
-
+/* END navigation */                                                                                                                                          
 
 /* home page style*/
 .home-page {
@@ -94,42 +94,137 @@
   font-size: 10px;
 }
 
-/* ABOUT PAGE */
+.homepage-services li {
+  width: 22%;
+  margin: 0 0 160px 0;
+  float: left;
+  text-align: center;
+  margin-right: 2%;
+  list-style-type: none;
+}
+
+.homepage h4 {
+  text-align: center;
+  font-weight: normal;
+  margin: 20px 0 50px 0;
+  font-size: 14px;
+  font-family: Montserrat;
+}
+
+
+/*Homepage recent Blog post */
+
+.blog-post {
+  float: left;
+  display: inline;
+  width: 49%;
+}
+
+.blog-post h4 {
+  text-align: left;
+  text-transform: uppercase;
+  margin: 20px 0 50px 0;
+  font-size: 16px;
+  color: #a6a6a6;
+  font-family: Montserrat;
+}
+
+/*end blog post */
+
+/*Twitter module on homepage*/
+.twitter-feed {
+  float: right;
+  display: inline;
+  width: 49%;
+}
+
+.twitter-feed h4 {
+  text-align: left;
+  text-transform: uppercase;
+  margin: 20px 0 50px 0;
+  font-size: 16px;
+  color: #a6a6a6;
+  font-family: Montserrat;
+}
+
+.twitter-feed li {
+  list-style: none;
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.twitter-feed .follow-link {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #45ac9d;
+  text-transform: uppercase;
+  padding-left: 40px;
+}
+
+span.stt-em {
+  display: none;
+}
+
+
+/* END Twitter module on homepage*/
+
+/* Newsletter sign-up */
+
+
+.widget-title">Newsletter</h3></aside>
+
+
+
+/* page-about services page */
 .about-hero {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
     height: 300px;
     padding: 50px;
 }
 
-.about-hero-text  {
-  text-align: center;
-  color: white;
-  padding: 80px 220px 100px;
-  line-height: 40px;
-  font-size: 30px;
-}
-
 .about-hero-text span {
     color: #45ac9d;
 }
 
+.about-hero-text  {
+  font-family: 'open sans';
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  padding: 80px 220px 20px 100px;
+  line-height: 40px;
+  font-size: 30px;
+}
+/* end about hero */
 
-/*service */
-
-.service-overview h5  {
+.service-intro h2 {
   text-transform: uppercase;
-  font-family: 'Montserrat';
+  text-align: center;
   font-weight: bold;
-  text-align: center;
+  font-size: 16px;
+  color: #3a3939;
 }
 
- .service-overview p {
-  padding:0 210px 0 210px;
+.service-intro h3 {
+  text-transform: uppercase;
   text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: #3a3939;
 }
 
-/*service info*/
+.service-intro p {
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+  color: #909090;
+  margin-left: 25%;
+  margin-right: 25%;
+}
 
+/*About/service info*/
 .service-item {
   overflow: auto;
   margin-top: 50px;
@@ -146,15 +241,11 @@
   margin-left: 5%;
 }
 
-
 .service-text {
   float:left;
   width:70%;
-
 }
-
-
-
+/* END About/service info*/
 
 
 
@@ -210,6 +301,8 @@ div.live-site {
   font-weight: bold;
   color: #696969;
 }
+/* END case studies style*/
+
 
 /* blog post style*/
 .blog-post {
@@ -238,6 +331,8 @@ div.live-site {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+/* END blog post style*/
 
 /* Contact Me style*/
 /* input#nf-field-4.ninja-forms-field.nf-element { */
@@ -283,19 +378,21 @@ input.ninja-forms-field.nf-element[type="button"] {
   font-weight: bold;
   float: right;
 }
+/* END Contact Me style*/
 
+/* 404 styles */
+.error-text h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #45ac9d;
+    }
 
-
-
-
-/* grid style
-.grid {
- display: grid;
- grid-template-columns: repeat(6, 150px);
- grid-template-rows: repeat(3, 150px);
- grid-gap: 30px;
+.error-img {
+    float: left;
+    margin-right: 10px;
 }
-*/
+
+/* END 404 styles */
+
 
 
 

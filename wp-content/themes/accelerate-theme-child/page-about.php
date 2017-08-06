@@ -24,14 +24,19 @@ get_header(); ?>
 			</div>
 		<?php endwhile; // end of the loop. ?>
 	</div><!-- .container -->
-</section><!-- .page-about -->
+</section><!-- .hero-about -->
 
 
-	<div id="primary" class="site-content">
+<div id="primary" class="site-content">
+    <div class="service-intro">
+       <h3>Our Services</h3>
+        <p>We take pride in our clients and the content we create for them. Here’s a brief overview of our offered services.</p>
+    </div>
+
 <section class="service-items">
         <div class="service-overview">
-          <h5> <?php echo get_field ('services_title') ?> </h5>
-            <p> <?php echo get_field ('services_text') ?> </p>
+          <h2><?php echo get_field ('services_title') ?></h2>
+          <p><?php echo get_field ('services_text') ?></p>
         </div>
 
 
